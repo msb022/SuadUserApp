@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "72153041983",
+    "project_id": "suadapp-dad35",
+    "storage_bucket": "suadapp-dad35.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:72153041983:android:5c6a30c6aa29dd667dbc8a",
+        "android_client_info": {
+          "package_name": "com.techroof.suaduser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "72153041983-rdna5en5iq23143sjieo0ko8nc79jahe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDorh_Og6jtXT1yGSCUqiD8oRr-8OyYcM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "72153041983-rdna5en5iq23143sjieo0ko8nc79jahe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

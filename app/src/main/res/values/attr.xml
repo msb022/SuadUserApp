@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="eTBoxStrokeColor" format="reference" />
+    <attr name="backBtnColor" format="reference" />
+
+    <attr name="pinBgColor" format="reference" />
+    <attr name="pinStrokeColor" format="reference" />
+
+</resources>
