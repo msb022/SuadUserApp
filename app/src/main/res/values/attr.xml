@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <attr name="eTBoxStrokeColor" format="reference" />
-    <attr name="backBtnColor" format="reference" />
 
+    <attr name="cardBackgroundColor1" format="reference" />
+    <attr name="cardBackgroundColor2" format="reference" />
+    <attr name="homeCardBackgroundColor" format="reference" />
+    <attr name="homeCardTextColorSelected" format="reference" />
+    <attr name="homeCardTextColorUnSelected" format="reference" />
+    <attr name="cardStrokeColor" format="reference" />
+    <attr name="btmSheetBg" format="reference" />
+    <attr name="btmSheetView" format="reference" />
+
+    <attr name="slide1" format="reference" />
+    <attr name="slide2" format="reference" />
+    <attr name="slide3" format="reference" />
+
+    <attr name="eTBoxBgColor" format="reference" />
+    <attr name="eTBoxStrokeColor" format="reference" />
+    <attr name="textColor2" format="reference" />
     <attr name="pinBgColor" format="reference" />
     <attr name="pinStrokeColor" format="reference" />
 

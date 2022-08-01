@@ -14,6 +14,23 @@
         <!-- Customize your theme here. -->
 
         <item name="fontFamily">@font/montserrat_regular</item>
-        <item name="backBtnColor">@color/black</item>
+
+        <item name="android:textColorHint">@color/hintColor</item>
+        <item name="homeCardTextColorSelected">@color/white</item>
+        <item name="homeCardTextColorUnSelected">@color/textColorDark</item>
+
+        <item name="android:textColor">@color/textColorDark</item>
+        <item name="textColor2">@color/textColorDark</item>
+        <item name="pinBgColor">@color/white</item>
+        <item name="pinStrokeColor">@color/card_stroke_color_dark</item>
+
+        <item name="homeCardBackgroundColor">@color/homeCardBgColorLight</item>
+        <item name="btmSheetView">@color/textColorDark</item>
+        <item name="btmSheetBg">@color/btmSheetWhite</item>
+        <item name="cardStrokeColor">@color/card_stroke_color_dark</item>
+        <item name="cardBackgroundColor">@color/lightCardColor</item>
+        <item name="cardBackgroundColor2">@color/white</item>
+        <item name="eTBoxBgColor">@color/lightETBoxBgColor</item>
+        <item name="eTBoxStrokeColor">@color/editTextBorderColor</item>
     </style>
 </resources>

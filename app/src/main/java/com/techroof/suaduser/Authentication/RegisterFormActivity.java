@@ -47,7 +47,7 @@ public class RegisterFormActivity extends AppCompatActivity {
     private Button submitBtn;
     private Uri imageUri;
     private ImageView uploadIV;
-    private String imageUrl;
+    private String imageUrl,phoneNumber;
     private ProgressDialog pd;
     private FirebaseFirestore firestore;
     private FirebaseStorage firebaseStorage;
@@ -71,6 +71,14 @@ public class RegisterFormActivity extends AppCompatActivity {
 
         firebaseStorage=FirebaseStorage.getInstance();
         firestore=FirebaseFirestore.getInstance();
+
+        phoneNumber=getIntent().getStringExtra("phoneNumber");
+
+        if (phoneNumber!=null){
+            phoneEt.getEditText().setText(phoneNumber);
+            phoneEt.setFocusable(false);
+            phoneEt.setEnabled(false);
+        }
 
         imgCL.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -13,7 +13,7 @@
         android:layout_marginTop="40dp"
         android:layout_marginStart="10dp"
         android:padding="10dp"
-        app:tint="?attr/backBtnColor"
+        app:tint="?attr/textColor2"
         android:src="@drawable/ic_baseline_keyboard_backspace_24"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -60,12 +60,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:cursorVisible="false"
-        android:layout_marginTop="10dp"
         android:hint="&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;"
         android:importantForAutofill="yes"
         android:inputType="number"
         android:itemBackground="?attr/pinBgColor"
-        app:cursorColor="@color/stroke_color_dark"
         app:hideLineWhenFilled="false"
         app:itemCount="6"
         app:itemHeight="50dp"
@@ -74,8 +72,10 @@
         app:lineWidth="2dp"
         app:lineColor="?attr/pinStrokeColor"
         android:layout_gravity="center"
+        app:layout_constraintVertical_bias="0.2"
         app:layout_constraintStart_toStartOf="@id/label_verify_details"
         app:layout_constraintEnd_toEndOf="@id/label_verify_details"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@id/label_phone_number"/>
 
     <Button

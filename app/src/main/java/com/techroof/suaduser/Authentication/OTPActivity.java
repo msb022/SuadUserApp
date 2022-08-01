@@ -217,6 +217,7 @@ public class OTPActivity extends AppCompatActivity {
 
                                     }else{
                                         Intent registration=new Intent(OTPActivity.this, RegisterFormActivity.class);
+                                        registration.putExtra("phoneNumber",phoneNumber);
                                         startActivity(registration);
                                     }
 

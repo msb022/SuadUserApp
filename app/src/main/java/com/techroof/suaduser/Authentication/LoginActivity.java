@@ -95,7 +95,7 @@ public class LoginActivity extends AppCompatActivity {
 
             }
         });
-
+/*
         fbBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -123,6 +123,8 @@ public class LoginActivity extends AppCompatActivity {
                         });
             }
         });
+
+ */
 
         imgBack.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -250,7 +252,8 @@ public class LoginActivity extends AppCompatActivity {
 
     }
 
-    AccessTokenTracker tokenTracker= new AccessTokenTracker() {
+
+    /*AccessTokenTracker tokenTracker= new AccessTokenTracker() {
         @Override
         protected void onCurrentAccessTokenChanged(AccessToken oldAccessToken, AccessToken currentAccessToken) {
 
@@ -289,6 +292,8 @@ public class LoginActivity extends AppCompatActivity {
         }
     };
 
+
+
     private void handleFacebookAccessToken(AccessToken token) {
 
         AuthCredential credential = FacebookAuthProvider.getCredential(token.getToken());
@@ -310,6 +315,8 @@ public class LoginActivity extends AppCompatActivity {
                     }
                 });
     }
+
+     */
 
     private void handleGoogleLoginIntent(Task<GoogleSignInAccount> task) {
 
