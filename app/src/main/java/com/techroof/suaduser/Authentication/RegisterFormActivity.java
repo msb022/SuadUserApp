@@ -42,11 +42,11 @@ import java.util.UUID;
 
 public class RegisterFormActivity extends AppCompatActivity {
 
-    private ConstraintLayout imgCL;
+    //private ConstraintLayout imgCL;
     private TextInputLayout nameEt, emailEt,passwordEt,confirmPassEt,phoneEt;
     private Button submitBtn;
     private Uri imageUri;
-    private ImageView uploadIV;
+    //private ImageView uploadIV;
     private String imageUrl,phoneNumber;
     private ProgressDialog pd;
     private FirebaseFirestore firestore;
@@ -58,10 +58,10 @@ public class RegisterFormActivity extends AppCompatActivity {
         setContentView(R.layout.activity_register_form);
 
         submitBtn = findViewById(R.id.submit_btn);
-        imgCL = findViewById(R.id.image_cl);
+        //imgCL = findViewById(R.id.image_cl);
         nameEt = findViewById(R.id.full_name_et);
         emailEt = findViewById(R.id.email_et);
-        uploadIV = findViewById(R.id.upload_img);
+        //uploadIV = findViewById(R.id.upload_img);
         passwordEt=findViewById(R.id.password_et);
         confirmPassEt=findViewById(R.id.confirm_et);
         phoneEt=findViewById(R.id.phone_et);
@@ -80,7 +80,7 @@ public class RegisterFormActivity extends AppCompatActivity {
             phoneEt.setEnabled(false);
         }
 
-        imgCL.setOnClickListener(new View.OnClickListener() {
+      /*  imgCL.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
@@ -90,6 +90,8 @@ public class RegisterFormActivity extends AppCompatActivity {
                 galleryResultLauncher.launch(galleryIntent);
             }
         });
+
+       */
 
         submitBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -185,7 +187,7 @@ public class RegisterFormActivity extends AppCompatActivity {
 
     }
 
-    ActivityResultLauncher<Intent> galleryResultLauncher = registerForActivityResult
+    /*ActivityResultLauncher<Intent> galleryResultLauncher = registerForActivityResult
             (new ActivityResultContracts.StartActivityForResult(), new ActivityResultCallback<ActivityResult>() {
                 @Override
                 public void onActivityResult(ActivityResult result) {
@@ -202,6 +204,7 @@ public class RegisterFormActivity extends AppCompatActivity {
                 }
             });
 
+     */
     void uploadImage() {
 
         StorageReference storageReference=firebaseStorage.getReference()

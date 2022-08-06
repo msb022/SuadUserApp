@@ -33,6 +33,7 @@
         android:gravity="start"
         android:textSize="18sp"
         android:textStyle="bold"
+        android:visibility="invisible"
         app:layout_constraintVertical_bias="0.4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -112,21 +113,47 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Login with password"
-        android:layout_margin="10dp"
+        android:layout_marginTop="25dp"
         android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/btn_request_otp"/>
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="15dp"
+        android:background="@color/textColorDark"
+        app:layout_constraintTop_toTopOf="@id/or_text"
+        app:layout_constraintBottom_toBottomOf="@id/or_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/or_text"/>
 
     <TextView
         android:id="@+id/or_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="- Or continue using -"
-        android:layout_margin="20dp"
+        android:text="Or continue using"
+        android:layout_margin="25dp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/login_with_pass_text"/>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/textColorDark"
+        app:layout_constraintTop_toTopOf="@id/or_text"
+        app:layout_constraintBottom_toBottomOf="@id/or_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/or_text"/>
+
 
 
     <ImageView

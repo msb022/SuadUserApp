@@ -40,6 +40,7 @@
         android:layout_marginTop="8dp"
         android:text="Enter the verification code that we sent to"
         android:textSize="14sp"
+        android:visibility="invisible"
         android:layout_marginEnd="25dp"
         android:layout_marginStart="25dp"
         app:layout_constraintTop_toBottomOf="@id/label_verify_desc" />
@@ -50,6 +51,7 @@
         android:layout_height="wrap_content"
         android:text="+92000000001"
         android:textSize="14sp"
+        android:visibility="invisible"
         android:layout_marginTop="8dp"
         app:layout_constraintStart_toStartOf="@id/label_verify_details"
         app:layout_constraintTop_toBottomOf="@id/label_verify_details" />

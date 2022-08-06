@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/btm_home"
+        android:title="Home"
+        app:iconTint="@color/black"
+        android:icon="@drawable/home_icon"/>
+
+    <item android:id="@+id/search"
+        android:title="Search"
+        app:iconTint="@color/black"
+        android:icon="@drawable/ic_round_search_24"/>
+
+    <item android:id="@+id/map"
+        android:title="Map"
+        app:iconTint="@color/black"
+        android:icon="@drawable/ic_round_map_24"/>
+
+    <item android:id="@+id/cart"
+        android:title="Cart"
+        app:iconTint="@color/black"
+        android:icon="@drawable/ic_round_shopping_cart_24"/>
+
+    <item android:id="@+id/favorite"
+        android:title="Favorite"
+        app:iconTint="@color/black"
+        android:icon="@drawable/ic_round_favorite_24"/>
+
+</menu>

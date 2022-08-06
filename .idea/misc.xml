@@ -6,12 +6,18 @@
         <entry key="app/src/main/res/drawable/btn_bg.xml" value="0.1415" />
         <entry key="app/src/main/res/drawable/edittext_bg.xml" value="0.1415" />
         <entry key="app/src/main/res/drawable/outline_bg.xml" value="0.1415" />
-        <entry key="app/src/main/res/layout/activity_home.xml" value="0.26251276813074564" />
-        <entry key="app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.18" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2677083333333333" />
         <entry key="app/src/main/res/layout/activity_otpactivity.xml" value="0.22" />
-        <entry key="app/src/main/res/layout/activity_register_form.xml" value="0.14" />
+        <entry key="app/src/main/res/layout/activity_register_form.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.44730679156908665" />
+        <entry key="app/src/main/res/layout/home_restaurant_layout.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/stories_layout.xml" value="0.9" />
+        <entry key="app/src/main/res/layout/toolbar.xml" value="0.67" />
+        <entry key="app/src/main/res/menu/main_menu.xml" value="0.48243559718969553" />
+        <entry key="app/src/main/res/menu/nav_menu.xml" value="0.48243559718969553" />
       </map>
     </option>
   </component>
